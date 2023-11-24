@@ -1,0 +1,10 @@
+<View>
+  <Text name="query" value="$my_text"/>
+  <Header value="Выберите темы, о которых говорится в тексте:"/>
+  <View style="display: flex">
+    <View>
+      <Choices name="selection" toName="query" required="true" choice="multiple" value="$variants">
+      </Choices>
+    </View>
+  </View>
+</View>
